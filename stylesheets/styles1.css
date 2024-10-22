@@ -1,6 +1,14 @@
 h1 {
     color: red;
 }
-img {
-    border: 300px;
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
 }
