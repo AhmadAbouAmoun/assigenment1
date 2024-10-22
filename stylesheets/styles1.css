@@ -7,8 +7,16 @@ h1 {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    transition: transform 0.5s ease;
 }
 
 .image-container img:hover {
     transform: scale(1.1);
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+span {
+    color: blue;
 }
